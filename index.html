@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Al Ghadeer Packagin Materials Factory</title>
+</head>
+<body>
+  
+    <div class="all" id="main">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <img src="images/387530800_876999897198291_8416647421347816535_n.jpg" alt="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#contact">تواصل معنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">منتجتنا</a>
+          </li>
+          
+            <a class="nav-link" href="#about">
+              من نحن
+            </a>
+          <li class="nav-item">
+            <a class="nav-link" href="#main">الرئيسية</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <video width="1150px" height="340" controls>
+      <source src="images/ALGHADEER PACKAGING MATERIALS FACTORY.mp4" type="video/mp4">
+    </video>
+
+    
+    <section class="about" id="about">
+      <h1 class="wow bounceInUp" data-wow-duration="2s">من نحن</h1>
+      <p>يعتبر مصنع الغدير لمواد التغليف أحد مشاريع مجموعة الغدير التي تضم أكبر المشاريع الاقتصادية في المملكة العربية السعودية و التي بدأت نشاطها عام ١٣٨١ هـ الموافق ١٩٦٠ م. 
+        تأسس مصنع الغدير لمواد التغليف عام ٢٠٠٨ بالاحساء بالمدينة الصناعية الاولى حيث ينتج المصنع أكياس <span>بلاستيكية مصفحة مضادة للماء</span></p>
+      <div class="card text-white mb-3" style="max-width: 18rem; background-color:#444f75;">
+        <div class="card-header">الخبرة</div>
+        <div class="card-body">
+          <p class="card-text"> عام +15</p>
+        </div>
+      </div>
+      <div class="card text-white mb-3" style="max-width: 18rem; background-color:#444f75;" id="two">
+        <div class="card-header">الموظفين</div>
+        <div class="card-body">
+          <p class="card-text"> 90+</p>
+        </div>
+      </div>
+      <div class="card text-white mb-3" style="max-width: 18rem; background-color:#444f75;" id="three">
+        <div class="card-header">الجودة</div>
+        <div class="card-body">
+          <p class="card-text" style="margin-right:25px;">ISO 9001</p>
+        </div>
+      </div>
+      
+      <img src="images/aboutimage1.jpg" alt="" id="img1about">
+      <img src="images/aboutimage3.jpg" alt="" id="img3about">
+      <img src="images/aboutimage2.jpg" alt="" id="img2about">
+    </section>
+
+    <div class="work" id="work">
+      <h1>اعمالنا</h1>
+      <img src="images/work 1.jpg" alt="" id="work" >
+      <img src="images/work 2.jpg" alt="" id="work2">
+      <img src="images/work 3.jpg" alt="" id="work3">
+      <img src="images/work 4.jpg" alt="" id="work4">
+      <img src="images/work 5.jpg" alt="" id="work5">
+      <img src="images/work 6.jpg" alt="" id="work6">
+      <img src="images/work 7.jpg" alt="" id="work7">
+      <img src="images/work 8.jpg" alt="" id="work8">
+
+    </div>
+
+    <div class="contact" id="contact">
+      <h1>تواصل معنا</h1>
+      <div id="googleMap" style="width:50%;height:400px;"></div>
+      <input type="text" placeholder="الإسم">
+      <input type="email" placeholder="البريد الإلكتروني" id="email">
+      <input type="text" placeholder="الموضوع" id="stuff2">
+      <input type="text" placeholder="الرسالة" id="stuff">
+      <button type="button" class="btn btn-warning">إرسال</button>
+      <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(25.6282048,49.5629245),
+          zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+      </script>
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    </div>
+    <div class="end">
+      <h6>معلومات التواصل</h6>
+      <a href="https://goo.gl/maps/6qNBxQK8xs8ibLLz7" target="_blank">الموقع</a>
+      <p>013 533 4944 :الرقم</p>
+      <p id="pe">الوقت: 24/7</p>
+    </div>
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+</body>
+</html>
